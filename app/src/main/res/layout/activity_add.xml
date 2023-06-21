@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새로운 일기추가"
+        android:textAlignment="center"
+        android:textColor="#8AFF0000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/newImage"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:paddingLeft="30sp"
+        app:srcCompat="@drawable/me" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜" />
+
+    <EditText
+        android:id="@+id/etAddDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="오늘의 날짜"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목" />
+
+    <EditText
+        android:id="@+id/etAddTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="오늘 하루를 한 단어로 요약한다면"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날씨" />
+
+    <EditText
+        android:id="@+id/etAddWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="오늘의 날씨"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일기" />
+
+    <EditText
+        android:id="@+id/etAddContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="여기에 입력"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAddFood"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추가" />
+
+    <Button
+        android:id="@+id/btnAddCancel"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="취소" />
+</LinearLayout>
